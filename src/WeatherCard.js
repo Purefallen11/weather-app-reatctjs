@@ -2,7 +2,7 @@ import React from 'react'
 
 
 const WeatherCard = ({ current, location }) => {
-	const condition = current.condition
+	
 	return (
 		<div>
 			<div>
@@ -16,8 +16,8 @@ const WeatherCard = ({ current, location }) => {
 			</div>
 			<div>
 				<div>
-					condition : {condition.text}
-					<img src={condition.icon} alt="testing icon" />
+					condition : 
+					
 				</div>
 				<div>
 					Currently it is: {current.temp_f} f <br />

@@ -16,7 +16,7 @@ const WeatherCard = ({ current, location, condition }) => {
 			</div>
 			<div>
 				<div>
-					condition : {condition.text}
+					Condition : {condition.text}
 					<img src={condition.icon} alt="condition icon" />
 					
 				</div>

@@ -16,7 +16,7 @@ const WeatherCard = ({ current, location }) => {
 			</div>
 			<div>
 				<div>
-					condition : 
+					condition : blah blah
 					
 				</div>
 				<div>

@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const WeatherCard = ({ current, location }) => {
+const WeatherCard = ({ current, location, condition }) => {
 	
 	return (
 		<div>
@@ -16,7 +16,8 @@ const WeatherCard = ({ current, location }) => {
 			</div>
 			<div>
 				<div>
-					condition : blah blah
+					condition : {condition.text}
+					<img src={condition.icon} alt="condition icon" />
 					
 				</div>
 				<div>

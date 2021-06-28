@@ -7,6 +7,7 @@ function App() {
 
   const [current, setCurrent] = useState([])
   const [location, setLocation] = useState([])
+  const [condition, setCondition] = useState([])
 
   useEffect(() => {
     axios
@@ -16,6 +17,7 @@ function App() {
         console.log(res)
         setCurrent(res.data.current)
         setLocation(res.data.location)
+        setCondition(res.data.current.condition)
       })
       .catch(err => {
       console.log("something went wrong", err)
@@ -24,7 +26,7 @@ function App() {
 
   return (
     <div className="App">
-      <WeatherCard current={current} location={location}/>
+      <WeatherCard current={current} location={location} condition={condition}/>
     </div>
   );
 }

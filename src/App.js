@@ -32,7 +32,8 @@ function App() {
     <div className="App">
       <WeatherCard current={current} location={location} condition={condition} />
       <Button color="primary" onClick={() => setCity('dallas')}>Dallas</Button>
-      <Button color="primary" onClick={()=> setCity('austin')}>Austin</Button>
+      <Button color="primary" onClick={() => setCity('austin')}>Austin</Button>
+      <Button color="warning" onClick={() => setCity('tegucigalpa')}>Tegucigalpa</Button>
     </div>
   );
 }

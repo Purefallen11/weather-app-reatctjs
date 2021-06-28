@@ -34,7 +34,7 @@ function App() {
       <Button color="primary" onClick={() => setCity('dallas')}>Dallas</Button>
       <Button color="primary" onClick={() => setCity('austin')}>Austin</Button>
       <Button color="warning" onClick={() => setCity('tegucigalpa')}>Tegucigalpa</Button>
-      <Button color="primary" onClick={() => setCity('cayman')}>Para mi sobrina</Button>
+      <Button color="primary" onClick={() => setCity('cayman')}>Cayman Island</Button>
     </div>
   );
 }
